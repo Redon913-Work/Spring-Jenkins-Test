@@ -25,6 +25,6 @@ public class CloudVendorExceptionHandler extends ResponseEntityExceptionHandler 
 	protected ResponseEntity<Object> handleHttpRequestMethodNotSupported(HttpRequestMethodNotSupportedException ex,
 			HttpHeaders headers, HttpStatusCode status, WebRequest request) {
 		// TODO Auto-generated method stub
-		return new ResponseEntity<Object>("Please change teh Request Type", HttpStatus.NOT_FOUND);
+		return new ResponseEntity<Object>("Please change the Request Type", HttpStatus.NOT_FOUND);
 	}
 }
